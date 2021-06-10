@@ -49,8 +49,8 @@ void carcon (Arguments *in, Reply *out)   {
 
    for(i = 0; i < 6; i++){
 
-    if(z == 1){            // if at west, turn left
-    car.turn(85, 0.3);}
+    if(z == 1)            // if at west, turn left
+    car.turn(85, 0.3);
     else if(z == 0)        // if at east, turn right
     car.turn(70, -0.3);
 
